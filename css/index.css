@@ -1,0 +1,41 @@
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .treatment {
+    width: calc(
+      20% - 5px
+    ); /* Distribute treatments evenly with 5px margin between them */
+    margin: 0 2.5px; /* 5px margin divided by 2 for each side */
+    padding: 20px;
+    border: 1px solid #999;
+    text-align: center;
+    background-color: rgb(235, 234, 234);
+  }
+  
+  .treatment h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .treatment img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .treatment p {
+    font-size: 14px;
+  }
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .treatment {
+      width: 100%; /* Treatments occupy full width on smaller screens */
+      margin: 10px 0; /* Add spacing between vertically stacked treatments */
+    }
+  }
