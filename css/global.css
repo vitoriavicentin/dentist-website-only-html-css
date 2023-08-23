@@ -9,8 +9,48 @@
 }
 .nav-menu li a {
   text-decoration: none;
-  color:black;
+  color: black;
 }
 .nav-menu li a:hover {
   color: rgb(168, 164, 164);
+}
+.minimal-footer {
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px 0;
+}
+
+.container-footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icon {
+  font-size: 24px;
+  color: #333;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.social-icon:last-child {
+  margin-right: 0;
+}
+
+.social-icon:hover {
+  color: #007bff;
+}
+
+.rights {
+  margin: 0;
 }
